@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<nav>
+    <img src="MultiClothesLogo.png"> <!-- LOGO image -->
+    <a href="HomePage.html"><i class="fa-sharp fa-solid fa-house"></i> Home Page</a>
+    <a href="Search.html"><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+    <a href="About_us.html"><i class="fa-sharp fa-solid fa-circle-info"></i> About US</a>
+    <a href="Admin.html"><i class="fa-sharp fa-solid fa-circle-user"></i> Adminstrator</a>
+</nav>
+
+
+<style>
+    /* Decorate Navigation bar */
+    nav {
+        background-color: #f3e2ba;
+        margin: 0px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Set up Logo image */
+    nav img {
+        width: 250px;
+        height: fit-content;
+        margin: auto;
+
+    }
+
+    nav a {
+        display: block;
+        float: left;
+        color: #705228;
+        padding: 10px 16px;
+        text-decoration: none;
+        text-align: center;
+
+    }
+
+    /* When the mouse cursor on the nevigation, shows the white background and shadow */
+    nav a:hover {
+        height: fit-content;
+        padding: 10px;
+        border: unset;
+        border-radius: 15px;
+        background-color: #ffffff;
+        box-shadow: #70522889 0px 7px 29px 0px;
+        letter-spacing: 3px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    @media screen and (min-width: 768px) {
+        nav {
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        nav a {
+            height: fit-content;
+            padding: 50px 16px;
+        }
+
+        nav img {
+            margin: 0px;
+            margin-top: 30px;
+        }
+    }
+</style>
